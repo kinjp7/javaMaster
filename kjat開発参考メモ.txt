@@ -1,0 +1,14 @@
+
+■GPAS
+・gpas-web/Webページ/WEB-INF/
+　　・web.xml　　　　　　　　：Java ウェブ アプリケーションでは、デプロイ記述子ファイルを使用して、URL からサーブレットへのマッピング、認証が必要な URL などの情報を決定します。このファイルの名前は web.xml で、アプリケーションの WAR の WEB-INF/ ディレクトリにあります。 
+　　・beans.xml
+　　・ejb-jar.xml
+　　・faces-config.xml
+　　・glassfish-web.xml
+　　・pretty-config.xml
+・gpas-web/RESTful Webサービス
+　　・LoggingResourc
+・gpas-web/プロジェクト・ファイル
+	・pom.xml　　　　　　　　：使用するライブラリとビルド時に使うものなどを設定
+	・nb-configuration.xml
