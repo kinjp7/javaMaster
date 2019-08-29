@@ -2,11 +2,11 @@
 ■GPAS
 ・gpas-web/Webページ/WEB-INF/
 　　・web.xml　　　　　　　　：Java ウェブ アプリケーションでは、デプロイ記述子ファイルを使用して、URL からサーブレットへのマッピング、認証が必要な URL などの情報を決定します。このファイルの名前は web.xml で、アプリケーションの WAR の WEB-INF/ ディレクトリにあります。 
-　　・beans.xml
-　　・ejb-jar.xml
+　　・beans.xml　　　　　　　：メソッドの実行前後に特定の処理を実行するインターセプターや、 複数候補の注入対象の実装クラスを決定するAlternativeの設定する際に使う。
+　　・ejb-jar.xml　　　　　　：内容は空白；EJBの構成や設定を記述するXMLファイル
 　　・faces-config.xml
-　　・glassfish-web.xml
-　　・pretty-config.xml
+　　・glassfish-web.xml　　　：Webアプリケーション（WAR）に関する、Java EE RI固有の設定をするためのDDです。
+　　・pretty-config.xml　　　：URLのマッピング設定
 ・gpas-web/RESTful Webサービス
 　　・LoggingResourc
 ・gpas-web/プロジェクト・ファイル
